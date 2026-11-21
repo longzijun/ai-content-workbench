@@ -1,0 +1,33 @@
+.schedule-panel { min-width: 0; }
+.schedule-panel .panel-title { flex-wrap: wrap; gap: 12px; }
+.schedule-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.schedule-metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 16px 0; }
+.schedule-metrics > div { min-width: 0; padding: 12px 14px; border-radius: 8px; background: #f7f6f0; }
+.schedule-metrics span { display: block; font-size: 12px; color: #64776a; }
+.schedule-metrics strong { display: block; margin-top: 4px; font-size: 18px; font-weight: 500; color: #2c3a30; }
+.schedule-metrics strong.ok { color: #1d7a4d; }
+.schedule-metrics strong.off { color: #a33b3b; }
+.schedule-metrics small { display: block; margin-top: 2px; font-size: 11px; color: #7b8a7e; }
+.schedule-form { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 1.2fr) auto; gap: 14px; align-items: end; padding: 16px; border: 1px solid #e0e8db; border-radius: 8px; background: #fffefa; }
+.schedule-form .field { margin: 0; }
+.schedule-submit { height: 38px; white-space: nowrap; }
+.schedule-list { margin-top: 18px; }
+.schedule-list-title { display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; justify-content: space-between; }
+.schedule-list-title h3 { margin: 0; font-size: 14px; }
+.schedule-list-title span { font-size: 12px; color: #64776a; }
+.schedule-table { width: 100%; margin-top: 10px; border-collapse: collapse; font-size: 12px; table-layout: fixed; }
+.schedule-table th, .schedule-table td { padding: 9px 8px; text-align: left; vertical-align: top; border-bottom: 1px solid #eceee7; }
+.schedule-table th { font-weight: 500; color: #64776a; }
+.schedule-table td.mono { font-family: var(--font-mono, ui-monospace, monospace); white-space: nowrap; }
+.schedule-table .schedule-topic { overflow-wrap: anywhere; }
+.schedule-table .schedule-note { color: #64776a; overflow-wrap: anywhere; }
+.schedule-table th:nth-child(1) { width: 92px; }
+.schedule-table th:nth-child(2) { width: 24%; }
+.schedule-table th:nth-child(3) { width: 76px; }
+.schedule-table th:nth-child(5) { width: 84px; }
+.schedule-table th:nth-child(6) { width: 76px; }
+@media (max-width: 960px) {
+  .schedule-metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .schedule-form { grid-template-columns: minmax(0, 1fr); }
+  .schedule-table { table-layout: auto; }
+}

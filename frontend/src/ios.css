@@ -1,0 +1,13 @@
+/* Last-loaded touch layout rules keep the iPhone home indicator and keyboard areas usable. */
+@media(max-width:700px){
+  .prism-shell .prism-rail{height:calc(66px + env(safe-area-inset-bottom));padding-bottom:calc(5px + env(safe-area-inset-bottom))}
+  .prism-shell .workspace{padding-bottom:calc(90px + env(safe-area-inset-bottom))}
+  .prism-shell .prism-navigation{bottom:calc(78px + env(safe-area-inset-bottom))}
+  .prism-shell .toast,.prism-shell .busy-indicator{bottom:calc(82px + env(safe-area-inset-bottom))}
+  .auth-screen{padding-top:max(18px,env(safe-area-inset-top));padding-bottom:max(18px,env(safe-area-inset-bottom))}
+  .prism-shell .studio-platforms{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;padding-bottom:4px;max-width:100%}
+  .prism-shell .studio-platforms>button{flex:0 0 100px;min-width:100px;justify-content:flex-start}
+  .prism-shell .studio-platforms>button>span:nth-child(2){white-space:nowrap}
+  .prism-shell .studio-platforms small{white-space:normal}
+}
+.runtime-status{grid-column:1/-1}.runtime-status-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:18px 0}.runtime-status-grid>div{background:#f2f5f9;border:1px solid #e0e5ed;border-radius:9px;padding:14px;min-width:0}.runtime-status-grid span{display:block;font-size:11px;color:#758297;margin-bottom:7px}.runtime-status-grid strong{font-size:14px;line-height:1.7;overflow-wrap:anywhere}.runtime-component{border-top:1px solid #e1e6ee;padding:13px 0;overflow-wrap:anywhere}.runtime-component>div{display:flex;gap:10px;align-items:center;margin-bottom:5px}.runtime-component strong{font-size:13px}.runtime-component small{display:block;font-size:11px;line-height:1.8;color:#7c899b}.runtime-backup{border-top:1px solid #dce3ed;margin-top:15px;padding-top:15px}.runtime-backup p{font-size:12px;line-height:1.8;overflow-wrap:anywhere}@media(max-width:700px){.runtime-status-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.runtime-status-grid>div{padding:11px}.runtime-status-grid strong{font-size:13px}.runtime-status .panel-title{gap:10px;flex-wrap:wrap}.runtime-status .field input{font-size:16px}.runtime-status .btn{min-height:40px}}

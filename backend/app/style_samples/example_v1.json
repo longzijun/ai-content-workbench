@@ -1,0 +1,66 @@
+{
+  "library_id": "example-editorial-style",
+  "version": "example-v1.0",
+  "rules_version": "example-editorial-rules-v1",
+  "status": "confirmed",
+  "source_documents": [
+    "公开版自写虚构示例"
+  ],
+  "author_kernel": [
+    "先交代读者要解决的问题，再用可核对的步骤和结果说明做法。",
+    "一段只讲一件事。把事实、推测和适用范围分别交代清楚。",
+    "需要判断时说清依据；没有材料支撑的个人经历、数字和引语留空。"
+  ],
+  "content_lines": {
+    "A": {
+      "name": "实践工作流",
+      "editorial_share": 40,
+      "prompt": "本次走 A 线：实践工作流。交代任务、操作步骤、核对结果和适用条件。"
+    },
+    "B": {
+      "name": "工具实测",
+      "editorial_share": 40,
+      "prompt": "本次走 B 线：工具实测。提供材料中已有的版本和设置，说明观察结果与局限。"
+    },
+    "C": {
+      "name": "项目复盘",
+      "editorial_share": 20,
+      "prompt": "本次走 C 线：项目复盘。沿任务经过解释取舍，经验和数据仅从本篇资料提取。"
+    }
+  },
+  "voice": {
+    "status": "missing"
+  },
+  "voice_selected": {
+    "id": "example-style-note",
+    "title": "给桌面文件做一次整理演练",
+    "source_document": "公开版自写虚构示例",
+    "confirmed": true,
+    "usage": "style_only",
+    "paragraphs": [
+      "先拿几份练习文件试一次。建一个归档目录，再按文件用途分到对应位置。",
+      "最后从原目录和新目录分别核对清单。有一份找不到，就回到移动前的清单查名字。"
+    ]
+  },
+  "stances": [
+    {
+      "id": "example-check-the-result",
+      "statement": "工作流需要一个可核对的结果。",
+      "reason": "事前写下预期，结束时就能检查操作是否达到目的。",
+      "confirmed": true
+    },
+    {
+      "id": "example-compare-same-input",
+      "statement": "比较工具时应使用相同的输入。",
+      "reason": "统一输入后更容易解释不同设置带来的差异。",
+      "confirmed": true
+    },
+    {
+      "id": "example-keep-a-log",
+      "statement": "复盘先整理执行记录。",
+      "reason": "有时间和步骤日志可用时，才能还原决定是怎样做出的。",
+      "confirmed": true
+    }
+  ],
+  "platform_samples": []
+}

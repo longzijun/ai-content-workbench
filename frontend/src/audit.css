@@ -1,0 +1,15 @@
+.audit-box { margin: 16px 0; padding: 14px 16px; border: 1px solid #e0e8db; border-radius: 8px; background: #fffefa; }
+.audit-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+.audit-head h3 { display: flex; gap: 6px; align-items: center; margin: 0; font-size: 14px; }
+.audit-actions { display: flex; gap: 8px; align-items: center; }
+.audit-platform { padding-top: 10px; margin-top: 10px; border-top: 1px solid #eceee7; }
+.audit-platform-head { display: flex; gap: 8px; align-items: center; justify-content: space-between; }
+.audit-platform-head strong { display: flex; gap: 6px; align-items: center; font-size: 13px; }
+.audit-findings { margin: 8px 0 0; padding: 0; list-style: none; }
+.audit-findings li { display: flex; flex-wrap: wrap; gap: 8px; padding: 5px 0; font-size: 12px; line-height: 1.7; color: #4b5a4f; }
+.audit-findings li::before { content: ''; flex: 0 0 6px; height: 6px; margin-top: 7px; border-radius: 50%; background: #a8b5a9; }
+.audit-findings li.warning::before { background: #d8a13a; }
+.audit-findings li.blocked::before { background: #c0503f; }
+.audit-findings li em { font-style: normal; font-size: 11px; color: #8a968b; }
+.audit-code { flex: 0 0 auto; min-width: 66px; color: #64776a; }
+.audit-note { margin: 12px 0 0; font-size: 11px; line-height: 1.7; color: #8a968b; }
