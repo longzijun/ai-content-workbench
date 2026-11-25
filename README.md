@@ -47,4 +47,6 @@ npm.cmd --prefix frontend run build
 
 ## 许可
 
-本地候选版本等待项目所有者确认代码许可证。Python 和 Node.js 依赖适用各自的许可证。需使用 TrendRadar 时请参照[其上游项目及许可证](https://github.com/sansan0/TrendRadar)，本仓库提供适配代码，另行安装 TrendRadar。模型也由使用者单独安装并遵守相应条款。
+本项目按 [MIT 许可证](LICENSE) 授权。
+
+Python 和 Node.js 依赖适用各自的许可证。需使用 TrendRadar 时请参照[其上游项目及许可证](https://github.com/sansan0/TrendRadar)，本仓库提供适配代码，另行安装 TrendRadar。模型也由使用者单独安装并遵守相应条款。
